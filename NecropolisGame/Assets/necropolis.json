@@ -1,0 +1,100 @@
+{"frames": [
+
+{
+	"filename": "bg_main.png",
+	"frame": {"x":0,"y":0,"w":1024,"h":768},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":768},
+	"sourceSize": {"w":1024,"h":768}
+},
+{
+	"filename": "spr_bullet_0.png",
+	"frame": {"x":0,"y":768,"w":8,"h":8},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":8},
+	"sourceSize": {"w":8,"h":8}
+},
+{
+	"filename": "spr_monster_0.png",
+	"frame": {"x":8,"y":768,"w":28,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":57},
+	"sourceSize": {"w":28,"h":57}
+},
+{
+	"filename": "spr_monster_1.png",
+	"frame": {"x":36,"y":768,"w":28,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":57},
+	"sourceSize": {"w":28,"h":57}
+},
+{
+	"filename": "spr_monster_2.png",
+	"frame": {"x":64,"y":768,"w":28,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":57},
+	"sourceSize": {"w":28,"h":57}
+},
+{
+	"filename": "spr_monster_3.png",
+	"frame": {"x":92,"y":768,"w":28,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":57},
+	"sourceSize": {"w":28,"h":57}
+},
+{
+	"filename": "spr_Player_0.png",
+	"frame": {"x":120,"y":768,"w":24,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":60},
+	"sourceSize": {"w":24,"h":60}
+},
+{
+	"filename": "spr_Player_1.png",
+	"frame": {"x":144,"y":768,"w":24,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":60},
+	"sourceSize": {"w":24,"h":60}
+},
+{
+	"filename": "spr_Player_2.png",
+	"frame": {"x":168,"y":768,"w":24,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":60},
+	"sourceSize": {"w":24,"h":60}
+},
+{
+	"filename": "spr_Player_3.png",
+	"frame": {"x":192,"y":768,"w":24,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":60},
+	"sourceSize": {"w":24,"h":60}
+},
+{
+	"filename": "spr_wall_0.png",
+	"frame": {"x":216,"y":768,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "necropolis.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":828},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ce0a675030bd3fc69fbfd9d11c84f7c1:3e85d72b936e61266f9aa01bac5f31ef:0dc27db5fdd73bfeb82274d46bec0d5c$"
+}
+}
