@@ -1,4 +1,4 @@
-﻿module Necorpolis {
+﻿module Necropolis {
     export class welcomeState extends Phaser.State {
         bg: Phaser.Sprite;
         welcomeText: Phaser.Text;

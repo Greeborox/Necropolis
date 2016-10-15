@@ -251,3 +251,8 @@ ModelManifest.xml
 /NecropolisGame/GameObjects/player.js
 /NecropolisGame/States/gameState.js
 /NecropolisGame/States/gameState.js.map
+/NecropolisGame/States/welcomeState.js
+/NecropolisGame/States/welcomeState.js.map
+/NecropolisGame/GameObjects/map.ts
+/NecropolisGame/GameObjects/map.js.map
+/NecropolisGame/GameObjects/map.js
