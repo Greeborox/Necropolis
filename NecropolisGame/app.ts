@@ -9,6 +9,7 @@
         }
         create() {
             this.game.state.add('welcomeState', Necorpolis.welcomeState, true);
+            this.game.state.add('gameState', Necorpolis.gameState);
         }
         
     }
