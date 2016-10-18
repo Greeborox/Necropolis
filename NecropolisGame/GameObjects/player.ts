@@ -8,7 +8,7 @@
 
         constructor(game: Phaser.Game, x: number, y: number) {
             super(game, x, y, 'gameSheet', 'spr_Player_0.png')
-
+            this.game.physics.enable(this);
             this.RIGHT = this.game.input.keyboard.addKey(Phaser.Keyboard.RIGHT);
             this.RIGHT.onDown.add(this.movePlayer, this, 0, 'right');
             this.RIGHT.onUp.add(function () {
