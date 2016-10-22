@@ -4,6 +4,9 @@
         handleWallCollision(monster:Monster) {
             monster.turnAround();
         }
+        handleBulletWallCollision(bullet) {
+            bullet.kill();
+        }
     }
 
 }

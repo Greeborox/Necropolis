@@ -9,6 +9,10 @@
         SPACE: Phaser.Key;
         helper: Necropolis.Helper;
         bullets: Necropolis.Bullets;
+        trap1: Necropolis.SpikeTrap;
+        trap2: Necropolis.SpikeTrap;
+        trap3: Necropolis.SpikeTrap;
+        trap4: Necropolis.SpikeTrap;
 
         create() {
             this.SPACE = this.game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
@@ -30,13 +34,26 @@
 
             this.bullets = new Bullets(this.game, this.timeController);
 
-            this.monster = new Monster(this.game, 240, 240, this.timeController, this.bullets);
+            this.monster = new Monster(this.game, 240, 330, this.timeController, this.bullets);
             this.game.add.existing(this.monster);
+
+            this.trap1 = new SpikeTrap(this.game, 512, 288, this.timeController, 2000);
+            this.game.add.existing(this.trap1);
+
+            this.trap2 = new SpikeTrap(this.game, 512, 320, this.timeController, 2000);
+            this.game.add.existing(this.trap2);
+
+            this.trap3 = new SpikeTrap(this.game, 512, 352, this.timeController, 2000);
+            this.game.add.existing(this.trap3);
+
+            this.trap4 = new SpikeTrap(this.game, 512, 372, this.timeController, 2000);
+            this.game.add.existing(this.trap4);
         }
 
         update() {
             this.game.physics.arcade.collide(this.player, this.walls);
             this.game.physics.arcade.collide(this.monster, this.walls, this.helper.handleWallCollision, null, this);
+            this.game.physics.arcade.collide(this.bullets, this.walls, this.helper.handleBulletWallCollision, null, this);
         }
 
         changeTime() {

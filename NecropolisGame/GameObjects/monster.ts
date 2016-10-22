@@ -36,9 +36,11 @@
         }
 
         shoot() {
-            //if (!this.game.rnd.integerInRange(0, 5)) {
+            console.log("bam!outside");
+            if (!this.game.rnd.integerInRange(0, 5)) {
+                console.log("bam!");
                 this.bullets.spawn(this.x, this.y, this.body.velocity.x > 0);
-            //}
+            }
             this.game.time.events.add(2000, this.shoot, this);
         }
     }
