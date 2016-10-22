@@ -13,6 +13,7 @@
         trap2: Necropolis.SpikeTrap;
         trap3: Necropolis.SpikeTrap;
         trap4: Necropolis.SpikeTrap;
+        trap5: Necropolis.SpikeTrap;
 
         create() {
             this.SPACE = this.game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
@@ -29,6 +30,21 @@
             this.map.setCollision(1);
             this.walls.resizeWorld();
 
+            this.trap1 = new SpikeTrap(this.game, 512, 288, this.timeController, 500);
+            this.game.add.existing(this.trap1);
+
+            this.trap2 = new SpikeTrap(this.game, 512, 320, this.timeController, 500);
+            this.game.add.existing(this.trap2);
+
+            this.trap3 = new SpikeTrap(this.game, 512, 352, this.timeController, 500);
+            this.game.add.existing(this.trap3);
+
+            this.trap4 = new SpikeTrap(this.game, 512, 382, this.timeController, 500);
+            this.game.add.existing(this.trap4);
+
+            this.trap5 = new SpikeTrap(this.game, 512, 414, this.timeController, 500);
+            this.game.add.existing(this.trap5);
+
             this.player = new Player(this.game, 40, 40);
             this.game.add.existing(this.player);
 
@@ -37,17 +53,7 @@
             this.monster = new Monster(this.game, 240, 330, this.timeController, this.bullets);
             this.game.add.existing(this.monster);
 
-            this.trap1 = new SpikeTrap(this.game, 512, 288, this.timeController, 2000);
-            this.game.add.existing(this.trap1);
-
-            this.trap2 = new SpikeTrap(this.game, 512, 320, this.timeController, 2000);
-            this.game.add.existing(this.trap2);
-
-            this.trap3 = new SpikeTrap(this.game, 512, 352, this.timeController, 2000);
-            this.game.add.existing(this.trap3);
-
-            this.trap4 = new SpikeTrap(this.game, 512, 372, this.timeController, 2000);
-            this.game.add.existing(this.trap4);
+            
         }
 
         update() {
