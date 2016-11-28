@@ -10,6 +10,7 @@
             this.triggerTime = triggerTime;
             this.isActive = false;
             this.game.physics.enable(this);
+            this.body.immovable = true;
             this.timeCtlr = timeCtlr;
             this.game.time.events.add(this.triggerTime, this.activate, this);
         }

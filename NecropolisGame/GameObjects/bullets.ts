@@ -1,7 +1,6 @@
 ﻿module Necropolis {
     export class Bullets extends Phaser.Group {
         timeCtrl: TimeController;
-        speed: number;
         bulletSpeed: number;
 
         constructor(game: Phaser.Game, timeCtrl: TimeController) {

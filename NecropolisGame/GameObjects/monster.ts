@@ -41,7 +41,9 @@
                 console.log("bam!");
                 this.bullets.spawn(this.x, this.y, this.body.velocity.x > 0);
             }
-            this.game.time.events.add(2000, this.shoot, this);
+            if (this.alive) {
+                this.game.time.events.add(2000, this.shoot, this);
+            }
         }
     }
 
